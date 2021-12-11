@@ -18,8 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="@string/button_uri"
-        android:onClick="openWebsite"/>
+        android:text="@string/button_uri" />
 
     <EditText
         android:id="@+id/location_edittext"
@@ -32,8 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="@string/button_loc"
-        android:onClick="openLocation"/>
+        android:text="@string/button_loc" />
 
     <EditText
         android:id="@+id/share_edittext"
@@ -46,7 +44,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="@string/button_share"
-        android:onClick="shareText"/>
+        android:text="@string/button_share" />
 
 </LinearLayout>
